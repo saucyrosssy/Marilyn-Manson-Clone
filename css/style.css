@@ -1,0 +1,63 @@
+body{
+background-color: #9c9c9c;
+font-family: 'Maven Pro', sans-serif;
+margin-right:0;
+
+}
+
+.navbar{
+	background-color:#000;
+	height:36px;
+	overflow:auto;
+	text-align:left;
+	width:95%;
+	position:relative;
+	margin-right:0;
+	border-radius:0;
+	display:block;
+	/*margin:0;*/
+/*	max-width:770px;
+*/
+}
+
+.navbar p{
+	color:#FFF;
+	position:relative;
+	top:9px;
+	left: 15px;
+	line-height:1;
+	font-size:16px;
+	padding:0;
+	margin:0;
+}
+
+.navbar img{
+	float:right;
+	position:absolute;
+	top:8px;
+	right:15px;
+	display:block;
+	padding:0;
+	margin:0;
+
+}
+
+.black-bar{
+	width:95%;
+	height:10px;
+	background-color:#000;
+	margin:0;
+	padding:0;
+	border: 0px;
+}
+
+
+.mm-main-image img{
+	width:95%;
+	height:auto;
+}
+
+/*.big-navbar{
+	background-color:black;
+}*/
+
