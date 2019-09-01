@@ -1,10 +1,13 @@
 body{
 background-color: #9c9c9c;
 font-family: 'Maven Pro', sans-serif;
-margin-right:0;
-
+margin:0;
+padding:0;
 }
 
+a{
+	font-weight:bold;
+}
 .navbar{
 	background-color:#000;
 	height:36px;
@@ -12,12 +15,11 @@ margin-right:0;
 	text-align:left;
 	width:95%;
 	position:relative;
-	margin-right:0;
+	margin:1%;
 	border-radius:0;
 	display:block;
-	/*margin:0;*/
-/*	max-width:770px;
-*/
+
+
 }
 
 .navbar p{
@@ -38,24 +40,71 @@ margin-right:0;
 	right:15px;
 	display:block;
 	padding:0;
-	margin:0;
+	
 
 }
 
 .black-bar{
-	width:95%;
+	/*width:95%;*/
 	height:10px;
 	background-color:#000;
 	margin:0;
-	padding:0;
+	padding:-10px;
 	border: 0px;
+	
+
 }
 
 
 .mm-main-image img{
 	width:95%;
 	height:auto;
+	padding:0;
+	margin:0;
+	text-align:center;
 }
+
+
+
+.tourdates{
+	margin:0;
+	padding:0;
+}
+
+.tourbar {
+	margin:0;
+	text-transform:uppercase;
+	font-size:12px;
+	/*font-family: Work Sans, sans-serif;*/
+	height:111px;
+	line-height:23px
+}
+
+.tourbar a{
+	text-decoration:none;
+	color:black;
+	font-weight:bold;
+	padding-bottom:15px;
+	font-size:14px;
+}
+
+
+
+.white{
+	background-color: #E1E1E1;
+	width:100%;
+	padding:-10px;
+	text-align:center;
+	display:inline-block;
+}
+
+.tourinfo{
+	line-height:25px;
+	padding-top:3px;
+	font-size:14px;
+}
+
+
 
 /*.big-navbar{
 	background-color:black;
